@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
+
+        setTheme(R.style.Theme_BMI)
         setContentView(binding.root)
 
         super.onCreate(savedInstanceState)
